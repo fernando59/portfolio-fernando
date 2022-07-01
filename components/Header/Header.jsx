@@ -1,9 +1,9 @@
-import { ToggleThemeButton } from "./Header/ToggleThemeButton"
+import { ToggleThemeButton } from "./ToggleThemeButton"
 
 export const Header = () => {
     return <>
-        <header className="w-full mx-auto container h-20">
-            <div className="h-full flex justify-between items-center ">
+        <header className="w-full   h-20 fixed backdrop-blur-md z-10 ">
+            <div className="h-full mx-auto container px-5 w-full  flex justify-between items-center ">
                 <h1 className="font-bold text-1xl md:text-2xl">Fernando Mercado</h1>
 
                 <ul className="hidden  md:flex gap-5">
